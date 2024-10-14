@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "NextArt-Bold";
+  src: url(NEXT\ ART_Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+.header {
+  background: url(header-background.png) center center no-repeat;
+  background-size: cover;
+}
+
+.header-container {
+  height: 92vh;
+  max-width: 1180px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-right: 8vw;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-ul li a {
+  color: white;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  font-size: 18px;
+  transition: all 0.3s ease-out;
+}
+
+.nav-ul li a:hover {
+  color: #f2be22;
+  text-decoration: underline;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-button {
+  font-size: 16px;
+  background-color: #1a3e3e;
+  color: white;
+  padding: 9px 21px;
+  border-radius: 4px;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  border: #1a3e3e solid 1px;
+  transition: all 0.3s ease-out;
+}
+
+.nav-button:hover {
+  color: #1a3e3e;
+  background-color: white;
+  border: #1a3e3e solid 1px;
+}
+
+.header-heading {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: white;
+  font-family: NextArt-Bold;
+  line-height: 1.6;
+}
+
+.header-section {
+  margin-bottom: 80px;
+}
+
+.header-search {
+  background-color: lightgray;
+  opacity: 0.35;
+  border-radius: 8px;
+  backdrop-filter: blur(3px);
+  max-width: 1180px;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
