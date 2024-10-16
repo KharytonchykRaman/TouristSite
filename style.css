@@ -11,6 +11,10 @@
   border: none;
 }
 
+button{
+  cursor:pointer;
+}
+
 .header {
   background: url(header-background.png) center center no-repeat;
   background-size: cover;
@@ -89,12 +93,31 @@ nav {
 }
 
 .header-search {
-  background-color: lightgray;
-  opacity: 0.35;
+  background-color: rgba(255, 253, 253, 0.20);
   border-radius: 8px;
   backdrop-filter: blur(3px);
   max-width: 1180px;
   display: flex;
   justify-content: space-between;
   padding: 30px;
+}
+
+.header form{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+#tour-location-select{
+  padding: 15px 15px;
+  border-radius: 8px;
+  border:white 1px solid;
+  color:white;
+  font-family: "Nunito Sans";
+  font-weight: 600;
+  background-color: rgba(255, 253, 253, 0.00);
+}
+
+select option {
+ 
 }
