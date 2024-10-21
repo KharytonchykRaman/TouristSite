@@ -35,17 +35,29 @@
             <div class="header-section">
                 <h1 class="header-heading">Насладись прогулкой в горах с командой единомышленников</h1>
                 <div class="header-search">
-                    <div class="header-select">
-                        <form>
-                            <select name="tour-location" id="tour-location-select">
-                                <option value="">Локация для тура</option>
-                                <option value="">Россия</option>
-                                <option value="">США</option>
-                                <option value="">Великобритания</option>
-                            </select>
-                            <label for="tour-location-select">выберите из списка</label>
-                        </form>
-                    </div>
+                    <form class="location-form">
+                        <select name="tour-location" id="tour-location-select">
+                            <option value="">Локация для тура</option>
+                            <option value="">Россия</option>
+                            <option value="">США</option>
+                            <option value="">Великобритания</option>
+                        </select>
+                        <label for="tour-location-select">выберите из списка</label>
+                    </form>
+                    <form class="date-form">
+                        <input type="date" id="date-select" name="trip-start">
+                        <label for="date-select">укажите диапазон</label>
+                    </form>
+                    <form class="members-form">
+                        <select name="members-number" id="members-number-select">
+                            <option value="">Участники</option>
+                            <option value="">4 человека</option>
+                            <option value="">5 человек</option>
+                            <option value="">6 человек</option>
+                            <option value="">7 и более человек</option>
+                        </select>
+                        <label for="members-number-select">минимум 4 человека</label>
+                    </form>
                     <button class="header-search-button">Найти программу</button>
                 </div>
             </div>
@@ -56,7 +68,7 @@
         <section class="section-1">
             <div class="section-1-container">
                 <div class="section-1-imgbox">
-
+                    <img src="Rectangle 5.png" alt="">
                 </div>
                 <div class="section-1-textbox">
                     <p class="section-1-preheading">
@@ -81,33 +93,41 @@
         <section class="section-2">
             <div class="section-2-container">
                 <div class="section-2-textbox">
-                    <p class="section-2-preheading">
-                        наше предложение
-                    </p>
-                    <h1 class="section-2-heading">
-                        Лучшие программы для тебя
-                    </h1>
+                    <div class="section-2-header">
+                        <p class="section-2-preheading">
+                            наше предложение
+                        </p>
+                        <h1 class="section-2-heading">
+                            Лучшие программы для тебя
+                        </h1>
+                    </div>
                     <p class="section-2-paragraph">
                         Его корни уходят в один фрагмент классической латыни 45 года н.э., то есть более двух
                         тысячелетий назад. Ричард МакКлинток, профессор латыни из колледжа.
                     </p>
-                    <div class="section-2-textbox">
-                        <img src="" alt="">
-                        <h3>Опытный гид</h3>
+                    <div class="section-2-group">
+                        <img src="Group 16.png" alt="">
+                        <div class="section-2-group-text">
+                            <h3>Опытный гид</h3>
                         <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
                             соответствующих условий активизации.</p>
+                        </div>
                     </div>
-                    <div class="section-2-textbox">
-                        <img src="" alt="">
+                    <div class="section-2-group">
+                        <img src="Group 17.png" alt="">
+                        <div class="section-2-group-text">
                         <h3>Безопасный поход</h3>
                         <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
                             соответствующих условий активизации.</p>
+                        </div>
                     </div>
-                    <div class="section-2-textbox">
-                        <img src="" alt="">
+                    <div class="section-2-group">
+                        <img src="Group 18.png" alt="">
+                        <div class="section-2-group-text">
                         <h3>Лояльные цены</h3>
                         <p>Для современного мира базовый вектор развития предполагает независимые способы реализации
                             соответствующих условий активизации.</p>
+                        </div>
                     </div>
                     <button class="section-2-button">
                         Стоимость программ

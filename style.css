@@ -9,6 +9,23 @@
   text-decoration: none;
   list-style: none;
   border: none;
+  font-family: "Nunito Sans";
+}
+
+button{
+  border-radius: 5px;
+  border:#1a3e3e 1px solid;
+  color:white;
+  font-size: 16px;
+  font-weight: 800;
+  background-color:#1a3e3e;
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+}
+
+button:hover{
+  color:#1a3e3e;
+  background-color:white;
 }
 
 button{
@@ -43,7 +60,6 @@ button{
 
 .nav-ul li a {
   color: white;
-  font-family: "Nunito Sans";
   font-weight: 600;
   font-size: 18px;
   transition: all 0.3s ease-out;
@@ -68,7 +84,6 @@ nav {
   color: white;
   padding: 9px 21px;
   border-radius: 4px;
-  font-family: "Nunito Sans";
   font-weight: 600;
   border: #1a3e3e solid 1px;
   transition: all 0.3s ease-out;
@@ -82,7 +97,7 @@ nav {
 
 .header-heading {
   font-size: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   color: white;
   font-family: NextArt-Bold;
   line-height: 1.6;
@@ -106,18 +121,110 @@ nav {
   display: flex;
   flex-direction: column;
   gap:10px;
+  color:white;
 }
 
-#tour-location-select{
+.header form label{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  color:white;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+
+.header-search form select, input{
+  width:11vw;
   padding: 15px 15px;
   border-radius: 8px;
   border:white 1px solid;
   color:white;
-  font-family: "Nunito Sans";
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
   background-color: rgba(255, 253, 253, 0.00);
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: rgba(0, 0, 0, 0);
+  opacity: 1;
+  display: block;
+  background: url(formkit_date.png) no-repeat;
+  width: 20px;
+  height: 20px;
+  border-width: thin;
+}
+
+.header-search-button{
+  width:9vw;
+  height: 50%;
+  padding: 15px 15px;
+  border-radius: 5px;
+  border:white 1px solid;
+  color:#1a3e3e;
+  font-size: 16px;
+  font-weight: 800;
+  background-color:white;
+  transition: all 0.3s ease-out;
+}
+
+.header-search-button:hover{
+  color:white;
+  background-color:#1a3e3e;
+}
+
 select option {
- 
+  color:#1a3e3e;
+}
+
+.section-1-container{
+  display: flex;
+  align-items:center;
+  max-width: 1180px;
+  gap:5vw;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.section-1-textbox{
+  max-width: 25vw;
+}
+
+.section-1-preheading{
+  color:#F2BE22;
+  font-size: 24px;
+}
+
+.section-1-heading{
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.section-1-paragraph{
+  font-size: 18px;
+  margin: 40px 0px;
+}
+
+.section-1-button{
+  padding: 12px 25px;
+}
+
+.section-2-container{
+  display: flex;
+  align-items:center;
+  max-width: 1180px;
+  margin: auto; 
+  margin-top: 100px;
+}
+
+.section-2-group{
+  display: flex;
+  gap:20px;
+}
+
+.section-2-textbox{
+  display: flex;
+  gap:20px;
+  flex-direction: column;
+  width:30vw;
 }
